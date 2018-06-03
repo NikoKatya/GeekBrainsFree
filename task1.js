@@ -22,9 +22,11 @@ var reverseString = teststr.split('').reverse().join('');
  Иначе отвечаем NO*/
 if (teststr == reverseString)
 	{
-		process.stdout.write("YES")
+		console.log("YES")
+		//process.stdout.write("YES")
 	}
 else 
 	{
-		process.stdout.write("NO")
+		console.log("NO")
+		//process.stdout.write("NO")
 	}

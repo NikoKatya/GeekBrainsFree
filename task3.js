@@ -31,4 +31,5 @@ if (digit != null)
 		if (glas != null || sogl != null) result+=' ';
 		result += digit.join('');
 	}
-process.stdout.write(result);
+//process.stdout.write(result);
+console.log(result);

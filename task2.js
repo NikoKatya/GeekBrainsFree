@@ -27,5 +27,7 @@ else {
 }
 /*При не обходимости меняем знак*/
 if (numbers >= 0) 
-	process.stdout.write(String(result));
-else process.stdout.write(String(Math.pow(-1,exp+1)*result));
+	console.log(String(result));
+	//process.stdout.write(String(result));
+else //process.stdout.write(String(Math.pow(-1,exp+1)*result));
+	console.log(String(Math.pow(-1,exp+1)*result));
