@@ -1,4 +1,4 @@
-/****************************************************************
+﻿/****************************************************************
 *                         Задание 2 		                    *
 *                      Числа фибоначчи                          *
 *      Написать функцию расчета n-ного числа Фибоначчи.         *
@@ -6,7 +6,7 @@
 *       На вход подается число n. -10000 <= n <= 10000          *
 *****************************************************************/
 /*Получаем номер числа*/
-var numbers = parseInt( process.argv[2]);
+var numbers = parseInt(process.argv[2]);
 /*Для удобства будем считать положительные числа*/
 
 var exp = Math.abs(numbers);
@@ -27,7 +27,7 @@ else {
 }
 /*При не обходимости меняем знак*/
 if (numbers >= 0) 
-	console.log(String(result));
-	//process.stdout.write(String(result));
-else //process.stdout.write(String(Math.pow(-1,exp+1)*result));
-	console.log(String(Math.pow(-1,exp+1)*result));
+	//console.log(String(result));
+	process.stdout.write(String(result));
+else process.stdout.write(String(Math.pow(-1,exp+1)*result));
+	//console.log(String(Math.pow(-1,exp+1)*result));

@@ -1,4 +1,4 @@
-/**************************************************************
+﻿/**************************************************************
 *                        Задание 3 							  *
 *                   Разделение строки                         *
 *      Разделить входную строку длины n на 3: глассные a,     *
@@ -31,5 +31,5 @@ if (digit != null)
 		if (glas != null || sogl != null) result+=' ';
 		result += digit.join('');
 	}
-//process.stdout.write(result);
-console.log(result);
+process.stdout.write(result);
+//console.log(result);
