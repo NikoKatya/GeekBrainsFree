@@ -12,8 +12,8 @@
 var inputString = process.argv.slice(2).join('');
 
 /*Создаем 3 масива: глассные, согласные и цифры*/
-var glas = inputString.match(/[aeiou]/ig);
-var sogl = inputString.match(/[bcdfghjklmnpqrstvwxyz]/ig);
+var glas = inputString.match(/[ayeiou]/ig);
+var sogl = inputString.match(/[bcdfghjklmnpqrstvwxz]/ig);
 var digit = inputString.match(/[0-9]/g);
 
 /*Собираем сообщение*/
